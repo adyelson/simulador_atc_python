@@ -76,21 +76,10 @@ while janela_aberta:
           
     if pressed[pygame.K_h]:
         pressed=''
-        inserirnovorumo(acft1)
-   
+        inserirnovorumo(acft1)   
     else:
         acft1.aerodinamica(acft1.rumo[0],acft1.ladocurva)
-            
 
-    
-
-      #coloca aeronave em movimento dinamico  
-      #ARRENDONDAR PARA NAO PASSAR DO RUMO
-    #acft1.aerodinamica(190,"esquerda")
-   
-   
-    
     pygame.display.update()
-
 
 pygame.quit()    
